@@ -9,6 +9,7 @@ Further links to post processors and useful information will be appreciated.
 Grbl/grblHAL [post processor](https://cam.autodesk.com/hsmposts?p=grbl).
 
 Experimental grblHAL [post processor](https://github.com/raenji-sk/grblHAL_Fusion360_Post_Processor) by @raenji-sk.
+A fork with new updates [grblhal pp](https://github.com/Dietz0r/grblHAL_Fusion360_Post_Processor) by @Dietz0r
 
 [Disabling G2/G3 arcs](https://forums.autodesk.com/t5/hsm-post-processor-forum/disabling-g2-g3-arcs/td-p/6095167). G2/G3 arcs in ZX and YZ planes cannot be rotated.
 
