@@ -13,6 +13,10 @@ A fork with new updates [grblhal pp](https://github.com/Dietz0r/grblHAL_Fusion36
 
 [Disabling G2/G3 arcs](https://forums.autodesk.com/t5/hsm-post-processor-forum/disabling-g2-g3-arcs/td-p/6095167). G2/G3 arcs in ZX and YZ planes cannot be rotated.
 
+#### Autodesk PowerMill
+
+grblHAL [post processor](https://github.com/coolboysalam/PowerMill-grblHAL-PostProcessor) for Autodesk PowerMill 2026 by @coolboysalam. Supports 3-axis metric milling, G0/G1, G2/G3 with IJK arc centers, helical interpolation, spindle control and manual tool changes.
+
 #### FreeCAD
 
 Some info about the Grbl postprocessor can be found in [this thread](https://forum.freecadweb.org/viewtopic.php?p=542401#p542401).
