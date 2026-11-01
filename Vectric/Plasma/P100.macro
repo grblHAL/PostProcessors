@@ -1,0 +1,18 @@
+; P300 -probe with floating head
+(msg, float probe)
+o101 if[exists[#<_float_offset>]]
+o101 else
+#<_float_offset>=2.6
+o101 endif
+#1=#<_feed>
+G91G38.3Z-20F300
+F#1
+o100 if[#5070 EQ 1]
+(msg, .)
+g90g1z#5063
+g91g0z#<_float_offset>
+g10l20z0
+o100 else
+(abort, float probe failed)
+o100 endif
+g90
